@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
+  username: "David Sagrario",
   title: "Hi all, I'm David",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Junior Data Scientist 🚀 having an experience of machine learning, data manipulation, cleaning, modelling and visualization with technologies like Python and Spark and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -22,15 +22,15 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  // github: "https://github.com/Andreutxa",
+  linkedin: "https://www.linkedin.com/in/david-sagrario-s%C3%A1nchez/",
+  gmail: "david.sagrarios92@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  // medium: "https://medium.com/@davidrakosi",
+  // stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  // instagram: 'https://www.instagram.com/cleverqazi/',
+  // twitter: 'https://twitter.com/Andrea_AstorgaB',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,88 +38,96 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "JUNIOR DATA SCIENTIST WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Clean, massage and origanize your (big) data"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Perform descriptive statistics to develop insights, build models and solve your business needs")
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
+  https://fontawesome.com/icons?d=gallery */
+  
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Selenium",
+      fontAwesomeClassname: "fas fa-check"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Spark",
+      fontAwesomeClassname: "fas fa-star"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fab fa-envira"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Keras",
+      fontAwesomeClassname: "fab fa-kickstarter-k"
+    },
+    {
+      skillName: "Scikit-learn",
+      fontAwesomeClassname: "fas fa-head-side-virus"
+    },
+    {
+      skillName: "Pandas",
+      fontAwesomeClassname: "fas fa-paw"
+    },
+    {
+      skillName: "BeautifulSoup",
+      fontAwesomeClassname: "fas fa-utensil-spoon"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+    // {
+      //   skillName: "firebase",
+      //   fontAwesomeClassname: "fas fa-fire"
+      // }
+    ],
+    display: true // Set false to hide this section, defaults to true
+  };
 
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Neoland",
+      logo: require("./assets/images/Neoland-logo.jpeg"),
+      subHeader: "Data Science",
+      duration: "September 2020 - January 2021",
+      desc: "Full-time Bootcamp (432 hours in 12 weeks).",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Data: Data Cleaning, Data Manipulation, Data Interpretation, Data Visualization, Descriptive Statistics",
+        "Python: Pandas, Numpy, Folium (Maps), NLTK for NLP (Natural Language Processing)",
+        "Web Scrapping: Selenium, BeautifulSoup",
+        "Machine Learning: Scikit-Learn",
+        "Deep Learning: Neural Networks, Keras, Pytorch, Tensorflow",
+        "Large Data Processing: Apache Spark",
+        "Genetic Algorithms",
+        "Data Visualization: Matplotlib (Python), Seaborn (Pyhton), Tableau",
+        "APIs: Twitter, Google",
+        "Relational Databases: PostGreSQL",
+        "Non-Relational Databases: MongoDB"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Puerta Bonita",
+      logo: require("./assets/images/puerta-bonita-logo.png"),
+      subHeader: "Higher Technical certificate in audio-visual production",
+      duration: "September 2013 - May 2015",
+      // desc:
+      //   "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -127,7 +135,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
@@ -151,34 +159,47 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
-      desc:
-        "Changing lives of developers one line of code at a time.",
+      role: "Data scientist",
+      company: "Traffic accidents",
+      companylogo: require("./assets/images/traffic-accidents-logo.jpeg"),
+      date: "December 2020",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Data Cleaning",
+        "Data Manipulation",
+        "Data Visualization",
+        "Machine Learning"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+      role: "Customer Excellence",
+      company: "Cinesa LUXE",
+      companylogo: require("./assets/images/cinesa-logo.jpg"),
+      date: "June 2015 – Present",
+      descBullets: [
+        "Customer service",
+        "Team management",
+        "Inventory control",
+        "Tickets sales",
+        "Auxiliar manager"
+      ]
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
+      role: "Operations team member",
+      company: "Delaware",
+      companylogo: require("./assets/images/delaware-logo.jpg"),
+      date: "May 2012 – February 2013",
+      descBullets:[
+        "Testing software applications",
+        "mySQL Server database management at query level"
+      ]
+    },
+    {
+      role: "Web developer internship",
+      company: "DAESA",
+      companylogo: require("./assets/images/daesa-logo.png"),
+      date: "September 2011 – September 2012",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "Desarrollo Aplicaciones Especiales S.A. Java developer"
     }
   ]
 };
@@ -200,92 +221,94 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "fa"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: require("./assets/images/analysis-traffic-bcn-map.jpg"),
+      projectName: "Traffic accidents",
+      projectDesc: "Analysis and classification of traffic accidents in the city of Barcelona between 2014 and 2019, according to its severity with the intention of identifying dark dots and isolate the variables that affects the most in the target for its study.",
+      // footerLink: [
+        //   {
+          //     name: "Visit Website",
+          //     url: "fa"
+          //   }
+          //   //  you can add extra buttons here.
+      // ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: ""
-        }
-      ]
+      image: require("./assets/images/covid-mexico.jpg"),
+      projectName: "Covid-19 in México 2020",
+      projectDesc: "Analysis of the Covid-19 incidence in Mexico in order to classify the pacients according to the most significant variables which affects in mortality",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "fa"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
+    {
+      image: require("./assets/images/santander-logo.jpg"),
+      projectName: "Financial Santander products",
+      projectDesc: "Client and product analysis achieved in order to observe which variables affect on the decision-making of which product to achieve and predict those products that may be achieved by a client based on their profile",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: ""
+      //   }
+      // ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications to deepen my knowledge",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Data Science",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Fulltime bootcamp",
+      image: require("./assets/images/neoland-certificate.png"),
       footerLink: [
         {
           name: "Certification",
           url:
-            ""
-        },
-        {
-          name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            ""
+            "https://www.neoland.es/?utm_source=adword&utm_medium=ppc&utm_content=search&utm_term=neoland&utm_source=adwords&utm_campaign=%2300+Protecci%C3%B3n+Marca&utm_medium=ppc&hsa_kw=neoland&hsa_ad=352007985999&hsa_grp=68020410474&hsa_ver=3&hsa_acc=3503502286&hsa_cam=1677060882&hsa_mt=e&hsa_src=g&hsa_net=adwords&hsa_tgt=kwd-399405244555&gclid=Cj0KCQiA7NKBBhDBARIsAHbXCB575njq9LpIBC10qpsb3zrjG_37QUbv41kKXTdfLM2N-2OS3OcRrbAaAsPNEALw_wcB"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "SQL Server Master",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "From zero to professional level",
+      image: require("./assets/images/SQL-server-certificate.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "Certification",
           url:
-            ""
+            "https://www.udemy.com/"
         }
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: ""
-        }
-      ]
-    }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   footerLink: [
+    //     {name: "Certification", url: ""},
+    //     {
+    //       name: "Final Project",
+    //       url: ""
+    //     }
+    //   ]
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -310,7 +333,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -346,18 +369,18 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me 📲"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "david.sagrarios92@gmail.com",
+  // email_address: "david.sagrarios92@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
